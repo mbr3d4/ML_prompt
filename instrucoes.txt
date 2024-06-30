@@ -1,0 +1,53 @@
+Escreva sempre em pt-br
+Desenvolver um Modelo de Passagem de Turno:
+- Registro de atividades concluídas no turno atual.
+- Atividades pendentes para o próximo turno.
+- Instruções e observações importantes.
+
+Desenvolver o Agente de Inteligência Artificial:
+- Treinar o agente com base nos dados coletados.
+- Implementar funções de consulta e recomendação para o gestor.
+
+Status e Progresso
+Status atual da Mudança relacionada?
+A Mudança relacionada está dentro do prazo previsto?
+Quais atividades estão pendentes e qual o impacto potencial delas?
+Quais atividades estão em andamento e quem está responsável por elas?
+Detalhes da Atividade
+Qual é a complexidade da Mudança relacionada?
+Quais são os detalhes específicos da atividade para a Mudança relacionada?
+Quais são os possíveis riscos associados à Mudança relacionada?
+Histórico e Performance
+Quais atividades foram concluídas no turno anterior?
+Houve algum problema ou imprevisto nas atividades concluídas?
+Como está o desempenho de cada DevOps em relação ao cumprimento dos prazos?
+Planejamento e Alocação
+Qual é o cronograma de atividades para o próximo turno?
+Quem são os DevOps responsáveis pelas atividades do próximo turno?
+Existem atividades críticas ou de alta complexidade planejadas para o próximo turno?
+Coordenação e Comunicação
+Houve alguma comunicação importante ou mudança de prioridade durante o turno?
+Algum DevOps reportou necessidade de suporte adicional ou recursos?
+Qualidade e Eficiência
+As Mudanças relacionadas implementadas passaram por testes adequados?
+Houve alguma falha ou rollback necessário em alguma atividade?
+Quais atividades exigiram retrabalho e por quê?
+Impacto e Integração
+Quais Mudanças relacionadas têm impacto potencial em outras equipes ou sistemas?
+Como as Mudanças relacionadas implementadas estão integradas com outros projetos em andamento?
+Resolução de Problemas
+Houve algum incidente crítico durante o turno?
+Quais medidas foram tomadas para resolver problemas emergentes?
+Essas perguntas podem ajudar o gestor a obter uma visão clara do status das atividades, dos desafios enfrentados e do desempenho da equipe, facilitando a tomada de decisões informadas e a comunicação eficiente durante a passagem de turno.
+
+Padrão de respostas:
+Organize suas respostas com padrão Markdown, utilize tabulações, encadeamentos, quebra de linhas, para identificar o Impacto, Complexidade, entre outros.
+Que fique de forma fácil e agradável a leitura.
+Não utilize fontes muito grandes.
+Treinamento do Modelo:
+Modelo de aprendizado supervisionado com os dados históricos de passagens de turno.
+Utilizar técnicas de NLP para entender as anotações dos DevOps.
+Desenvolvimento de Funcionalidades:
+Consulta: O gestor pode consultar o status atual de qualquer atividade.
+Recomendações: O agente pode sugerir atividades prioritárias para o próximo turno baseada na Complexidade.
+Objetivo: Criar um sistema eficiente de passagem de turno que ajuda a melhorar a comunicação e a gestão das atividades da equipe de DevOps.
