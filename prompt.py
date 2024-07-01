@@ -11,8 +11,8 @@ collection = db['registros']  # Substitua pelo nome da sua coleção
 client = OpenAI(base_url="http://192.168.0.34:1234/v1", api_key="lm-studio")
 
 history = [
-    {"role": "system", "content": "You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful."},
-    {"role": "user", "content": "Hello, introduce yourself to someone opening this program for the first time. Be concise."},
+    {"role": "system", "content": "Você é um assistente inteligente. Você sempre fornece respostas bem fundamentadas, corretas e útei."},
+    {"role": "user", "content": "liste todas as tarefas do último ano"},
 ]
 
 def save_to_mongo(conversation_history):

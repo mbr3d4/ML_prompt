@@ -145,3 +145,38 @@ while True:
 
 # Fechamento da conexão com MongoDB
 mongo_client.close()
+
+
+---------------------------------------------------
+
+Status e Progresso
+Status atual da Mudança relacionada?
+A Mudança relacionada está dentro do prazo previsto?
+Quais atividades estão pendentes e qual o impacto potencial delas?
+Quais atividades estão em andamento e quem está responsável por elas?
+Detalhes da Atividade
+Qual é a complexidade da Mudança relacionada?
+Quais são os detalhes específicos da atividade para a Mudança relacionada?
+Quais são os possíveis riscos associados à Mudança relacionada?
+Histórico e Performance
+Quais atividades foram concluídas no turno anterior?
+Houve algum problema ou imprevisto nas atividades concluídas?
+Como está o desempenho de cada DevOps em relação ao cumprimento dos prazos?
+Planejamento e Alocação
+Qual é o cronograma de atividades para o próximo turno?
+Quem são os DevOps responsáveis pelas atividades do próximo turno?
+Existem atividades críticas ou de alta complexidade planejadas para o próximo turno?
+Coordenação e Comunicação
+Houve alguma comunicação importante ou mudança de prioridade durante o turno?
+Algum DevOps reportou necessidade de suporte adicional ou recursos?
+Qualidade e Eficiência
+As Mudanças relacionadas implementadas passaram por testes adequados?
+Houve alguma falha ou rollback necessário em alguma atividade?
+Quais atividades exigiram retrabalho e por quê?
+Impacto e Integração
+Quais Mudanças relacionadas têm impacto potencial em outras equipes ou sistemas?
+Como as Mudanças relacionadas implementadas estão integradas com outros projetos em andamento?
+Resolução de Problemas
+Houve algum incidente crítico durante o turno?
+Quais medidas foram tomadas para resolver problemas emergentes?
+Essas perguntas podem ajudar o gestor a obter uma visão clara do status das atividades, dos desafios enfrentados e do desempenho da equipe, facilitando a tomada de decisões informadas e a comunicação eficiente durante a passagem de turno.
