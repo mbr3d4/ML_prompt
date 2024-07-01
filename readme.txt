@@ -180,3 +180,9 @@ Resolução de Problemas
 Houve algum incidente crítico durante o turno?
 Quais medidas foram tomadas para resolver problemas emergentes?
 Essas perguntas podem ajudar o gestor a obter uma visão clara do status das atividades, dos desafios enfrentados e do desempenho da equipe, facilitando a tomada de decisões informadas e a comunicação eficiente durante a passagem de turno.
+
+
+
+------------------------------------------------------
+
+ model="microsoft/Phi-3-mini-4k-instruct-gguf",
