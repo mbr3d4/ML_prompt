@@ -12,7 +12,7 @@ client = OpenAI(base_url="http://192.168.0.34:1234/v1", api_key="lm-studio")
 
 history = [
     {"role": "system", "content": "Você é um assistente inteligente. Você sempre fornece respostas bem fundamentadas, corretas e útei."},
-    {"role": "user", "content": "liste todas as tarefas do último ano"},
+    {"role": "user", "content": "Apresente-se de forma rápida, apenas uma frase."},
 ]
 
 def save_to_mongo(conversation_history):

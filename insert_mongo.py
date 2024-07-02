@@ -3,253 +3,201 @@ from datetime import datetime
 
 # Dados estruturados conforme exemplo anterior
 registros = [
- {
-      "chave": "CHG0337467",
-      "data_hora": "2024-06-29T10:00:00Z",
-      "descricao": "ROGERIO DE PAULA FERNANDES - CHG0337467 - [NEXT] - ALTERAÇÃO NO SERVIÇO NEXT-PROFILE PARA AJUSTE NO TRATAMENTO DE CAMPOS QUE GERAM NPE NO PROCESSO DE REONBOARDING E CORREÇÃO DO CÓDIGO EM PRODUÇÃO DA ROTA PARA ENCERRAMENTO DE CONTRATOS DE FGTS",
-      "status": "Sucesso",
-      "validado_por": "DS CASSIO LUIZ SALGADO",
-      "Turno": "Manhã",
-      "Líder Técnico": "",
-      "Técnico responsável": "ROGERIO DE PAULA FERNANDES",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T10:00:00Z",
-      "Horário de fim": "2024-06-29T11:30:00Z",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS CASSIO LUIZ SALGADO"
-      ]
+    {
+        "chave": "CHG0337468",
+        "descricao": "ajuste na configuração do serviço de e-mail para melhorar a entrega de notificações.",
+        "status": "concluido",
+        "validado_por": "maria dos santos",
+        "turno": "manhã",
+        "líder": "ana paula souza",
+        "técnico": "fernando almeida",
+        "ocorrência": "chg0337468",
+        "incidente": "inc766546",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "09:00:00",
+        "impacto": "médio",
+        "causa raiz": "configuração incorreta",
+        "ações": [
+            "09:00:00 - início da mudança",
+            "09:45:00 - ajuste na configuração",
+            "10:30:00 - testes realizados"
+        ],
+        "envolvidos": [
+            "maria dos santos",
+            "ana paula souza"
+        ],
+        "horário de fim": "10:30:00"
     },
     {
-      "chave": "CHG0340621",
-      "data_hora": "2024-06-29T14:00:00Z",
-      "descricao": "IVANILDO DE OLIVEIRA JOAQUIM - CHG0340621 - VILA CRM: DEPLOY DE METADADOS SALESFORCE NÃO TRANSACIONAIS.",
-      "status": "Sucesso",
-      "validado_por": "DS CAROLINA MOREIRA CAPITANI",
-      "Turno": "Tarde",
-      "Líder Técnico": "",
-      "Técnico responsável": "IVANILDO DE OLIVEIRA JOAQUIM",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T14:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS CAROLINA MOREIRA CAPITANI"
-      ]
+        "chave": "CHG0337469",
+        "descricao": "atualização de segurança nos servidores web para mitigação de vulnerabilidades.",
+        "status": "em andamento",
+        "validado_por": "pedro oliveira",
+        "turno": "manhã",
+        "líder": "joão pereira",
+        "técnico": "ricardo fonseca",
+        "ocorrência": "chg0337469",
+        "incidente": "inc766547",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "10:00:00",
+        "impacto": "alto",
+        "causa raiz": "vulnerabilidade detectada",
+        "ações": [
+            "10:00:00 - início da atualização",
+            "11:00:00 - aplicação dos patches",
+            "12:00:00 - reinício dos servidores"
+        ],
+        "envolvidos": [
+            "pedro oliveira",
+            "joão pereira"
+        ]
     },
     {
-      "chave": "CHG0341064",
-      "data_hora": "2024-06-30T08:30:00Z",
-      "descricao": "WILSON ROBERTO DE SOUZA FILHO - CHG0341064 - PDM-2510: Implantação da versão 1.30.2.",
-      "status": "Sucesso",
-      "validado_por": "DS FABIO DONIZETE ALVES",
-      "Turno": "Manhã",
-      "Líder Técnico": "",
-      "Técnico responsável": "WILSON ROBERTO DE SOUZA FILHO",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-30T08:30:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS FABIO DONIZETE ALVES"
-      ]
+        "chave": "CHG0337470",
+        "descricao": "correção de bug no sistema de login para resolver problemas de autenticação.",
+        "status": "falha",
+        "validado_por": "carla moreira",
+        "turno": "manhã",
+        "líder": "maria ferreira",
+        "técnico": "lucas rodrigues",
+        "ocorrência": "chg0337470",
+        "incidente": "inc766548",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "08:00:00",
+        "impacto": "baixo",
+        "causa raiz": "erro de código",
+        "ações": [
+            "08:00:00 - início da correção",
+            "08:45:00 - revisão do código",
+            "09:30:00 - testes falharam"
+        ],
+        "envolvidos": [
+            "carla moreira",
+            "maria ferreira"
+        ]
     },
     {
-      "chave": "CHG0341003",
-      "data_hora": "2024-06-29T20:30:00Z",
-      "descricao": "JOSE GERALDO MOREIRA FERREIRA - CHG0341003 - BRACE-6454: Implantar mudanças no BFF do produto de Consignado INSS.",
-      "status": "Sucesso",
-      "validado_por": "DS JOSE GERALDO MOREIRA FERREIRA",
-      "Turno": "Noite/Madrugada",
-      "Líder Técnico": "",
-      "Técnico responsável": "JOSE GERALDO MOREIRA FERREIRA",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T20:30:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS JOSE GERALDO MOREIRA FERREIRA"
-      ]
+        "chave": "CHG0337471",
+        "descricao": "melhoria no desempenho do banco de dados para reduzir o tempo de resposta.",
+        "status": "concluido",
+        "validado_por": "jorge silva",
+        "turno": "tarde",
+        "líder": "ana santos",
+        "técnico": "paulo henrique",
+        "ocorrência": "chg0337471",
+        "incidente": "inc766549",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "14:00:00",
+        "impacto": "médio",
+        "causa raiz": "alta latência",
+        "ações": [
+            "14:00:00 - início da otimização",
+            "14:45:00 - ajuste nos índices",
+            "15:30:00 - verificação do desempenho"
+        ],
+        "envolvidos": [
+            "jorge silva",
+            "ana santos"
+        ],
+        "horário de fim": "15:30:00"
     },
     {
-      "chave": "CHG0341243",
-      "data_hora": "2024-06-29T22:00:00Z",
-      "descricao": "LILIANE CRISTINA RODRIGUES - CHG0341243 - BRACE-6256: Disponibilizar a funcionalidade de enviar o comprovante por e-mail para os Corbans.",
-      "status": "Falha no deploy",
-      "validado_por": "",
-      "Turno": "Noite/Madrugada",
-      "Líder Técnico": "",
-      "Técnico responsável": "LILIANE CRISTINA RODRIGUES",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T22:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": []
+        "chave": "CHG0337472",
+        "descricao": "migração do sistema de gerenciamento de conteúdo para nova plataforma.",
+        "status": "em andamento",
+        "validado_por": "lucas mendes",
+        "turno": "tarde",
+        "líder": "juliana alves",
+        "técnico": "roberto souza",
+        "ocorrência": "chg0337472",
+        "incidente": "inc766550",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "13:00:00",
+        "impacto": "alto",
+        "causa raiz": "plataforma obsoleta",
+        "ações": [
+            "13:00:00 - início da migração",
+            "14:30:00 - transferência de dados",
+            "16:00:00 - configuração da nova plataforma"
+        ],
+        "envolvidos": [
+            "lucas mendes",
+            "juliana alves"
+        ]
     },
     {
-      "chave": "CHG0337618",
-      "data_hora": "2024-06-30T09:00:00Z",
-      "descricao": "CRISTIANE DE FREITAS - CHG0337618 - OF][Regulatório] - Atendimento da IN 463 - Tratamento da ausência do campo 'resource' nas respostas do serviço /products no fluxo de consentimento.",
-      "status": "Sucesso",
-      "validado_por": "DS Cristiane de Freitas",
-      "Turno": "Manhã",
-      "Líder Técnico": "",
-      "Técnico responsável": "CRISTIANE DE FREITAS",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-30T09:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS Cristiane de Freitas"
-      ]
+        "chave": "CHG0337473",
+        "descricao": "configuração de novo servidor de backup para aumentar a segurança dos dados.",
+        "status": "falha",
+        "validado_por": "renato barros",
+        "turno": "tarde",
+        "líder": "marcos oliveira",
+        "técnico": "andré lopes",
+        "ocorrência": "chg0337473",
+        "incidente": "inc766551",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "15:00:00",
+        "impacto": "médio",
+        "causa raiz": "erro de configuração",
+        "ações": [
+            "15:00:00 - início da configuração",
+            "15:45:00 - testes iniciais",
+            "16:30:00 - falha na validação"
+        ],
+        "envolvidos": [
+            "renato barros",
+            "marcos oliveira"
+        ]
     },
     {
-      "chave": "CHG0335208",
-      "data_hora": "2024-06-29T15:00:00Z",
-      "descricao": "ROODNEY MORAES DE SOUZA - CHG0335208-PPJSUPJ-7057: Implantar funcionalidade consultar e persistir id da conta",
-      "status": "Sucesso",
-      "validado_por": "DS ROODNEY MORAES DE SOUZA",
-      "Turno": "Tarde",
-      "Líder Técnico": "",
-      "Técnico responsável": "ROODNEY MORAES DE SOUZA",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T15:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS ROODNEY MORAES DE SOUZA"
-      ]
+        "chave": "CHG0337474",
+        "descricao": "implementação de nova política de firewall para aumentar a segurança da rede.",
+        "status": "concluido",
+        "validado_por": "antonio carlos",
+        "turno": "noite",
+        "líder": "sandra lima",
+        "técnico": "leandro costa",
+        "ocorrência": "chg0337474",
+        "incidente": "inc766552",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "20:00:00",
+        "impacto": "alto",
+        "causa raiz": "necessidade de segurança",
+        "ações": [
+            "20:00:00 - início da implementação",
+            "21:00:00 - configuração do firewall",
+            "22:00:00 - testes de segurança"
+        ],
+        "envolvidos": [
+            "antonio carlos",
+            "sandra lima"
+        ],
+        "horário de fim": "22:00:00"
     },
     {
-      "chave": "CHG0340067",
-      "data_hora": "2024-06-30T10:00:00Z",
-      "descricao": "PAULO GEOVANNI SCORSI DOS SANTOS - CHG0340067-Openfinance - Pagamentos - Funcionalidade de cancelamento de Transações / Push Notification",
-      "status": "Em fase de validação",
-      "validado_por": "",
-      "Turno": "Manhã",
-      "Líder Técnico": "",
-      "Técnico responsável": "PAULO GEOVANNI SCORSI DOS SANTOS",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-30T10:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": []
-    },
-    {
-      "chave": "CHG0339456",
-      "data_hora": "2024-06-29T16:00:00Z",
-      "descricao": "ALEXANDRE MACHADO HOEPNER - CHG0339456 - PIER-1459 - Servico Tokenizacao",
-      "status": "Sucesso",
-      "validado_por": "DS ALEXANDRE MACHADO HOEPNER",
-      "Turno": "Tarde",
-      "Líder Técnico": "",
-      "Técnico responsável": "ALEXANDRE MACHADO HOEPNER",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-29T16:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS ALEXANDRE MACHADO HOEPNER"
-      ]
-    },
-    {
-      "chave": "CHG0340571",
-      "data_hora": "2024-06-30T11:00:00Z",
-      "descricao": "FELIPE ANTONIO DE SOUZA - CHG0340571 - [BIA] Atendimento à Resolução BCB nº 215 de 03/08/2022 - Procedimentos - Elaboração de procedimento interno contendo o processo de recebimento de pedidos de informações.",
-      "status": "Sucesso",
-      "validado_por": "DS LUIS FERNANDO GUGLIELMO",
-      "Turno": "Manhã",
-      "Líder Técnico": "",
-      "Técnico responsável": "FELIPE ANTONIO DE SOUZA",
-      "Ocorrência": "",
-      "Registro Incidente": "",
-      "Horário de início": "2024-06-30T11:00:00Z",
-      "Horário de fim": "",
-      "Impacto": "",
-      "Causa Raiz": "",
-      "Ações": [
-        "",
-        "",
-        ""
-      ],
-      "Mudança relacionada": "",
-      "Envolvidos": [
-        "DS LUIS FERNANDO GUGLIELMO"
-      ]
-    },
-    # Adicione mais registros conforme necessário
+        "chave": "CHG0337475",
+        "descricao": "atualização do software de monitoramento para a versão mais recente.",
+        "status": "em andamento",
+        "validado_por": "bruno martins",
+        "turno": "noite",
+        "líder": "claudia nogueira",
+        "técnico": "maria aparecida",
+        "ocorrência": "chg0337475",
+        "incidente": "inc766553",
+        "data": "2024-06-29",  # Corrigido
+        "horário de início": "21:00:00",
+        "impacto": "baixo",
+        "causa raiz": "versão desatualizada",
+        "ações": [
+            "21:00:00 - início da atualização",
+            "22:00:00 - instalação da nova versão",
+            "23:00:00 - reinício do sistema"
+        ],
+        "envolvidos": [
+            "bruno martins",
+            "claudia nogueira"
+        ]
+    }
 ]
 
 # Configurações do cliente MongoDB
